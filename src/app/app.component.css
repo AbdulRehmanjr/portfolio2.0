@@ -1,0 +1,10 @@
+#hero{
+    background: url("src/assets/back.jpg") top center;
+    background-size: cover;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
