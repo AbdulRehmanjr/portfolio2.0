@@ -10,7 +10,7 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
     #header {
       left: -300px;
     }
@@ -18,7 +18,7 @@ body{
     #main {
       margin-left: 0;
     }
-  }
+  } */
 
   section {
     padding: 60px 0;

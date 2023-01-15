@@ -1,7 +1,17 @@
-<header id="header">
+<aside id="aside">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="../../../assets/fav/android-chrome-192x192.png" alt="logo" class="img-fluid rounded-circle">
+        <h2 class="text-light">Abdul Rehman</h2>
+        <div class="social-links mt-3 text-center">
+          <a [href]="github"target="_blank" class="github"><i class="fa-brands fa-github"></i></a>
+          <a [href]="linkedIn" target = "_blank"class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto"><i class="fas fa-home"></i><span>Home</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="fas fa-home"></i><span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="fa-regular fa-user"></i><span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="fas fa-file"></i><span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="fas fa-scroll"></i><span>Portfolio</span></a></li>
@@ -9,4 +19,5 @@
           <li><a href="#contact" class="nav-link scrollto"><i class="fa-regular fa-envelope"></i><span>Contact</span></a></li>
         </ul>
       </nav>
-  </header>
+    </div>
+</aside>

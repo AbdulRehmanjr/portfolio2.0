@@ -16,6 +16,7 @@ import { MainPortfolioComponent } from './components/main-portfolio/main-portfol
 import { MainServiceComponent } from './components/main-service/main-service.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainContactComponent } from './components/main-contact/main-contact.component';
+import { AsideComponent } from './components/aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MainContactComponent } from './components/main-contact/main-contact.com
     MainResumeComponent,
     MainPortfolioComponent,
     MainServiceComponent,
-    MainContactComponent
+    MainContactComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,
