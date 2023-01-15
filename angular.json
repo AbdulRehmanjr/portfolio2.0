@@ -13,6 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "typed.js",
+              "aos"
+            ],
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
