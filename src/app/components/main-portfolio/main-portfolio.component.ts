@@ -7,15 +7,22 @@ import { Component } from '@angular/core';
 })
 export class MainPortfolioComponent {
 
-  projects:string[] = [
-    '../../../assets/logo/logo1.png',
-    '../../../assets/logo/logo2.png',
-    '../../../assets/logo/logo3.png',
-    '../../../assets/logo/logo4.png',
-    '../../../assets/logo/logo5.png',
-    '../../../assets/logo/logo6.png',
-    '../../../assets/logo/logo7.png',
-    '../../../assets/logo/logo8.png',
-    '../../../assets/logo/logo9.png'
-                  ]
+
+  projects:project[] = [
+    {
+      url:'https://github.com/AbdulRehmanjr/secuirty-2.0',
+      image:'../../../assets/projects/secuirty.png'
+    },
+    {
+      url:'https://github.com/AbdulRehmanjr/micro-service-practice',
+      image:'../../../assets/projects/microservice.png'
+    },{
+      url:'https://github.com/AbdulRehmanjr/blob-backend',
+      image:'../../../assets/projects/blob.png'
+    }
+  ]             
+}
+interface project{
+  url:string
+  image:string
 }

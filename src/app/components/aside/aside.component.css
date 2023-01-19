@@ -101,10 +101,7 @@
       text-decoration: none;
       color: #fff;
     }
-    
     .nav-menu a:hover i,
-    .nav-menu .active i,
-    .nav-menu .active:focus i,
     .nav-menu li:hover>a i {
       color: #149ddd;
     }

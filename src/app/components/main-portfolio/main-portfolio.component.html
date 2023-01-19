@@ -8,10 +8,10 @@
       <ng-container *ngFor="let project of projects">
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img [src]="project" class="img-fluid" alt="prohjec_image">
+              <img [src]="project.image" class="img-fluid" alt="project_image">
               <div class="portfolio-links">
-                <a href="project" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="pi pi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="pi pi-link"></i></a>
+                <!-- <a href="project" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="pi pi-plus"></i></a> -->
+                <a [href]="project.url" target="_blank" title="More Details"><i class="pi pi-link"></i></a>
               </div>
             </div>
           </div>

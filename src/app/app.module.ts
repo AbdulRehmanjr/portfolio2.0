@@ -17,6 +17,7 @@ import { MainServiceComponent } from './components/main-service/main-service.com
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainContactComponent } from './components/main-contact/main-contact.component';
 import { AsideComponent } from './components/aside/aside.component';
+import { MainCommentsComponent } from './components/main-comments/main-comments.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AsideComponent } from './components/aside/aside.component';
     MainPortfolioComponent,
     MainServiceComponent,
     MainContactComponent,
-    AsideComponent
+    AsideComponent,
+    MainCommentsComponent
   ],
   imports: [
     BrowserModule,
